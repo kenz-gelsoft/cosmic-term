@@ -40,8 +40,8 @@ git = "https://github.com/pop-os/cosmic-files.git"
 default-features = false
 
 [dependencies.cosmic-text]
-git = "https://github.com/pop-os/cosmic-text.git"
 features = ["monospace_fallback", "shape-run-cache"]
+version = "0.19"
 
 [dependencies.libcosmic]
 git = "https://github.com/pop-os/libcosmic.git"
